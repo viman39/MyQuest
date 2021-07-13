@@ -1,0 +1,695 @@
+/*
+If any brain class is changed please check the database and write the css associated with the id in the database
+
+.brainX{
+...
+}
+X - id in the database of the category
+
+/ui/img/brain/X.gif - image associated to category X
+
+
+
+When adding/removing brain-score also change in array in mod/Brain.php
+ */
+
+.brain-category-button {
+    position: relative;
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.brain-category-modal {
+    position: relative;
+    height: 500px !important;
+    width: 500px !important;
+}
+
+.brain-category1 {
+    background: url(/ui/img/brain/1.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category2 {
+    background: url(/ui/img/brain/2.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category3 {
+    background: url(/ui/img/brain/3.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category4 {
+    background: url(/ui/img/brain/4.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category5 {
+    background: url(/ui/img/brain/5.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category6 {
+    background: url(/ui/img/brain/6.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category7 {
+    background: url(/ui/img/brain/7.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category8 {
+    background: url(/ui/img/brain/8.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category9 {
+    background: url(/ui/img/brain/9.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category10 {
+    background: url(/ui/img/brain/10.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category11 {
+    background: url(/ui/img/brain/11.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category12 {
+    background: url(/ui/img/brain/12.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category13 {
+    background: url(/ui/img/brain/13.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category14 {
+    background: url(/ui/img/brain/14.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category15 {
+    background: url(/ui/img/brain/15.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category16 {
+    background: url(/ui/img/brain/16.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category17 {
+    background: url(/ui/img/brain/17.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category18 {
+    background: url(/ui/img/brain/18.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category19 {
+    background: url(/ui/img/brain/19.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category20 {
+    background: url(/ui/img/brain/20.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category21 {
+    background: url(/ui/img/brain/21.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category22 {
+    background: url(/ui/img/brain/22.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category23 {
+    background: url(/ui/img/brain/23.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category24 {
+    background: url(/ui/img/brain/24.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category25 {
+    background: url(/ui/img/brain/25.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category26 {
+    background: url(/ui/img/brain/26.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category27 {
+    background: url(/ui/img/brain/27.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category28 {
+    background: url(/ui/img/brain/28.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category29 {
+    background: url(/ui/img/brain/29.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category30 {
+    background: url(/ui/img/brain/30.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category31 {
+    background: url(/ui/img/brain/31.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category32 {
+    background: url(/ui/img/brain/32.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category33 {
+    background: url(/ui/img/brain/33.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category34 {
+    background: url(/ui/img/brain/34.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category35 {
+    background: url(/ui/img/brain/35.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category36 {
+    background: url(/ui/img/brain/36.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category37 {
+    background: url(/ui/img/brain/37.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category38 {
+    background: url(/ui/img/brain/38.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category39 {
+    background: url(/ui/img/brain/39.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category40 {
+    background: url(/ui/img/brain/40.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category41 {
+    background: url(/ui/img/brain/41.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.brain-category42 {
+    background: url(/ui/img/brain/42.gif) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+
+
+.brain-button {
+    position: relative;
+    height: 100px !important;
+    width: 80px !important;
+}
+
+.brain-modal {
+    position: relative;
+    height: 1000px !important;
+    width: 800px !important;
+    min-width: 800px !important;
+}
+
+.brain-score {
+    font-weight: bold !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    color: #28a745;
+}
+
+.brain1 {
+    background: url(/ui/img/brain/image-001.png) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+/*Amotivational*/
+.brain-score2 {
+    top: 351px !important;
+    left: 164px !important;
+}
+
+/*ADD Distractibility Inattention*/
+.brain-score3 {
+    top: 210px !important;
+    left: 205px !important;
+}
+
+/*Depression*/
+.brain-score5 {
+    top: 248px !important;
+    left: 143px !important;
+}
+
+/*Dissociative Identity Disorder*/
+.brain-score6 {
+    top: 248px !important;
+    left: 640px !important;
+}
+
+/*Elevated Anger, Rage, Fear*/
+.brain-score7 {
+    top: 228px !important;
+    left: 620px !important;
+}
+
+/*Executive Cognitive Dysfunction*/
+.brain-score10 {
+    top: 189px !important;
+    left: 300px !important;
+}
+
+/*Impulse Control*/
+.brain-score13 {
+    top: 188px !important;
+    left: 542px !important;
+}
+
+/*Inability to Feel Negative Emotion*/
+.brain-score14 {
+    top: 208px !important;
+    left: 674px !important;
+}
+
+/*Inability to Feel Positive Emotion*/
+.brain-score15 {
+    top: 266px !important;
+    left: 310px !important;
+}
+
+/*Learning Disability -LanguageSpeaking*/
+.brain-score22 {
+    top: 286px !important;
+    left: 282px !important;
+}
+
+/*Learning Disability--LanguageWriting*/
+.brain-score24 {
+    top: 306px !important;
+    left: 280px !important;
+}
+
+/*HyperHypoactivity Disorder --(child)-- Hyperactivity*/
+.brain-score44 {
+    top: 310px !important;
+    left: 628px !important;
+}
+
+/*HyperHypoactivity Disorder --(child)-- Hypoactivity*/
+.brain-score45 {
+    top: 310px !important;
+    left: 676px !important;
+}
+
+/*Motor Dysfunction--Fine and Gross --(child)-- Fine Motor */
+.brain-score46 {
+    top: 350px !important;
+    left: 637px !important;
+}
+
+/*Motor Dysfunction--Fine and Gross --(child)-- Gross Motor */
+.brain-score47 {
+    top: 350px !important;
+    left: 682px !important;
+}
+
+/*Neurosensory Integration Disorder --(child)-- Right*/
+.brain-score48 {
+    top: 844px !important;
+    left: 622px !important;
+}
+
+/*Neurosensory Integration Disorder --(child)-- Left*/
+.brain-score49 {
+    top: 844px !important;
+    left: 576px !important;
+}
+
+
+.brain2 {
+    background: url(/ui/img/brain/image-002.png) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+/* Comprehending Social Cues Dysfunction */
+.brain-score4 {
+    top: 756px !important;
+    left: 678px !important;
+}
+
+/*Learning Disability--LanguageListening*/
+.brain-score16 {
+    top: 218px !important;
+    left: 204px !important;
+}
+
+/*Learning Disability--LanguageListening, Comprehension*/
+.brain-score17 {
+    top: 256px !important;
+    left: 324px !important;
+}
+
+/*Learning Disability--LanguageListening, Perception*/
+.brain-score18 {
+    top: 236px !important;
+    left: 288px !important;
+}
+
+/*Learning Disability--LanguageReading*/
+.brain-score19 {
+    top: 816px !important;
+    left: 196px !important;
+}
+
+/*Learning Disability--LanguageReading, Comprehension*/
+.brain-score20 {
+    top: 874px !important;
+    left: 318px !important;
+}
+
+/*Learning Disability--LanguageReading, Perception*/
+.brain-score21 {
+    top: 834px !important;
+    left: 280px !important;
+}
+
+/*Learning Disability--LanguageSpelling, Perception*/
+.brain-score23 {
+    top: 854px !important;
+    left: 282px !important;
+}
+
+/* Learning Disability--Mathematics */
+.brain-score25 {
+    top: 796px !important;
+    left: 638px !important;
+}
+
+/*Learning Disability--Somatosensory, Perception*/
+.brain-score26 {
+    top: 772px !important;
+    left: 166px !important;
+}
+
+/*Learning Disability--SoundVoice (intonation, prosody but not words)*/
+.brain-score27 {
+    top: 216px !important;
+    left: 512px !important;
+}
+
+/*Learning Disability--SoundVoice (intonation, prosody but not words) Comprehension*/
+.brain-score28 {
+    top: 256px !important;
+    left: 632px !important;
+}
+
+/*Learning Disability--SoundVoice (intonation, prosody but not words) Perception*/
+.brain-score29 {
+    top: 236px !important;
+    left: 596px !important;
+}
+
+/* Learning Disability--SpatialFacial */
+.brain-score30 {
+    top: 834px !important;
+    left: 526px !important;
+}
+
+/*  Learning Disability--SpatialFacial, Comprehension  */
+.brain-score31 {
+    top: 854px !important;
+    left: 608px !important;
+}
+
+/*  Learning Disability--SpatialFacial, Perception  */
+.brain-score32 {
+    top: 874px !important;
+    left: 646px !important;
+}
+
+.brain3 {
+    background: url(/ui/img/brain/image-003.png) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+/*   Addiction  */
+.brain-score1 {
+    top: 226px !important;
+    left: 306px !important;
+}
+
+/*    Emotional Disorder, Primary   */
+.brain-score8 {
+    top: 358px !important;
+    left: 640px !important;
+}
+
+/*    Emotional Disorder, Social   */
+.brain-score9 {
+    top: 356px !important;
+    left: 154px !important;
+}
+
+/*    Memory Dysfunction--Auditory, LanguageListening   */
+.brain-score33 {
+    top: 290px !important;
+    left: 234px !important;
+}
+
+/*    Memory Dysfunction--Auditory, SoundVoice (intonation, prosody but not words)    */
+.brain-score34 {
+    top: 290px !important;
+    left: 612px !important;
+}
+
+/*    Memory Dysfunction--Visual, LanguageReading   */
+.brain-score35 {
+    top: 862px !important;
+    left: 276px !important;
+}
+
+/*    Memory Dysfunction--Visual, SpatialFacial    */
+.brain-score36 {
+    top: 860px !important;
+    left: 568px !important;
+}
+
+/*    Oppositional Defiant Disorder  */
+.brain-score40 {
+    top: 206px !important;
+    left: 454px !important;
+}
+
+/*   Obsessive Compulsive Disorder  --(child)-- Obsessions  */
+.brain-score42 {
+top: 186px !important;
+left: 516px !important;
+}
+
+/*   Obsessive Compulsive Disorder  --(child)-- Compulsions  */
+.brain-score43 {
+    top: 186px !important;
+    left: 466px !important;
+}
+
+
+
+.brain4 {
+    background: url(/ui/img/brain/image-004.png) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+/*    Generalized Anxiety Disorder   */
+.brain-score11 {
+    top: 230px !important;
+    left: 679px !important;
+}
+
+/*   Sleep Disorder (HypoHypersomnia)   --(child)-- Hyposomnia  */
+.brain-score50 {
+    top: 250px !important;
+    left: 574px !important;
+}
+
+/*   Sleep Disorder (HypoHypersomnia)   --(child)-- Hypersomnia  */
+.brain-score51 {
+    top: 250px !important;
+    left: 618px !important;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="10.8.0.1" id="c408581d-6089-454f-bbe3-80cb9517c548" port="22" nameFormat="DESCRIPTIVE" username="victor" />
+      <sshConfig authType="PASSWORD" host="109.237.219.222" id="091790d2-f454-4fc6-b55f-148342883a9d" port="22" nameFormat="DESCRIPTIVE" username="victor" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" id="646c6944-e322-4ea2-862a-f342984f3d82" port="22" customName="qeeg" nameFormat="CUSTOM">
+        <option name="customName" value="qeeg" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
