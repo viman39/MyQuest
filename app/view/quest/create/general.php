@@ -146,6 +146,7 @@
             var selectValue = $(this).val()
             var avalabilityAll = $('.availability-all')
             var avalabilityCode = $('.availability-code')
+            var code = ""
 
             if ( selectValue == 'all' ){
                 avalabilityAll.removeClass('d-none')
@@ -153,12 +154,11 @@
             } else if ( selectValue == 'code' ){
                 avalabilityAll.addClass('d-none')
                 avalabilityCode.removeClass('d-none')
-
-                var code = uuidv4()
-
-                $('#code-hidden').val(code)
-                $('#code-visible').val(code)
+                code = uuidv4()
             }
+
+            $('#code-hidden').val(code)
+            $('#code-visible').val(code)
         });
 
         $('#country').select2()
